@@ -14,7 +14,6 @@ mongoose.connect('mongodb://localhost:27017/UserDB',{
 app.use('/api/Users',user);
 
 
-
 //Server creation
 const port=process.env.PORT || 3000
-app.listen(port,()=>console.log("Server is now working on"+port));
+app.listen(port,()=>console.log("Server is now working on "+port));
